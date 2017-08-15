@@ -1,0 +1,35 @@
+*{
+    font-family: 'Lato',sans-serif;
+}
+
+.img-base{
+    width: 250px;
+    height: 250px;
+    border :0.15em solid black;
+
+}
+
+.theme-img{
+  width:1140px;
+  height: 320px;
+}
+
+hr{
+    background-color: #7d97ad;
+    border: 0 none;
+    height: 0.15em;
+}
+
+.light{
+    color:#7d97ad;
+}
+
+.dark{
+    color:#2d3c49;
+}
+
+.logo{
+    padding-top: 4%;
+width:100px;
+height: 100px;
+}

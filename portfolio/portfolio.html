@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Portfolio Site </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/50x50" >
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+            <img src="img/logo.png" class="img-responsive logo" alt="logo" data-toggle="modal" data-target="#project1" >
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="dark" >ANNU JOSHI</h1>
+          <h3 class="dark">Front-end Ninja</h3>
+        </div>
+      </div>
+      <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/theme.jpg" class="img-responsive theme-img" alt="theme">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="light">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row dark" >
+
+        <div class="col-md-4">
+          <img src="img/project1.jpg" class="img-base img-responsive border-0" alt="project2 image">
+          <h3>MARRCS</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+        </div>
+
+        <div class="col-md-4" >
+          <img src="img/project2.png" class="img-base img-responsive " alt="project1 image">
+          <h3>Chat On</h3>
+          <p><a href="http://github.com">Link to Chat Bot</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="img/project3.png" class=" img-base img-responsive" alt="project3image">
+          <h3>DGraph Package in R</h3>
+          <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
